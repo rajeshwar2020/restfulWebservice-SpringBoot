@@ -8,6 +8,13 @@ public class Course {
 	private String description;
 	private List<String> steps;
 	
+	public Course(String id, String name, String description, List<String> steps) {
+		// TODO Auto-generated constructor stub
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.steps = steps;
+	}
 	public String getId() {
 		return id;
 	}
